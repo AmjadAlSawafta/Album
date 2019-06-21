@@ -27,14 +27,12 @@
             android:name=".app.album.AlbumActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Album.Theme.Activity"
-            android:screenOrientation="landscape"
             android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
 
         <activity
             android:name=".app.album.GalleryActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Album.Theme.Activity"
-            android:screenOrientation="landscape"
             android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
 
         <activity
@@ -62,7 +60,6 @@
             android:name=".app.camera.CameraActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Album.Theme.Activity.Transparent"
-            android:screenOrientation="landscape"
             android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
 
         <provider
