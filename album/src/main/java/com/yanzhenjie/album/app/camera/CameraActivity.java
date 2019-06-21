@@ -31,7 +31,7 @@ import com.yanzhenjie.album.util.AlbumUtils;
 import com.yanzhenjie.album.util.SystemBar;
 
 import java.io.File;
-
+import android.content.pm.ActivityInfo;
 /**
  * Created by YanZhenjie on 2017/8/16.
  */
