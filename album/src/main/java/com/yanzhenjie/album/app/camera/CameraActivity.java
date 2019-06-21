@@ -61,6 +61,7 @@ public class CameraActivity extends BaseActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         SystemBar.setStatusBarColor(this, Color.TRANSPARENT);
         SystemBar.setNavigationBarColor(this, Color.TRANSPARENT);
         SystemBar.invasionNavigationBar(this);
