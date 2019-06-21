@@ -100,6 +100,8 @@ public class AlbumActivity extends BaseActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+
         initializeArgument();
         setContentView(createView());
         mView = new AlbumView(this, this);
