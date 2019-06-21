@@ -28,7 +28,7 @@ import com.yanzhenjie.album.mvp.BaseActivity;
 import com.yanzhenjie.album.util.AlbumUtils;
 
 import java.util.ArrayList;
-
+import android.content.pm.ActivityInfo;
 /**
  * <p>Preview the pictures in the folder in enlarged form.</p>
  * Created by Yan Zhenjie on 2017/3/25.
