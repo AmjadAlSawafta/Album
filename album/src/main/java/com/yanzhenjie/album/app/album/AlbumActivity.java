@@ -49,7 +49,7 @@ import com.yanzhenjie.mediascanner.MediaScanner;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-
+import android.content.pm.ActivityInfo;
 /**
  * <p>Responsible for controlling the album data and the overall logic.</p>
  * Created by Yan Zhenjie on 2016/10/17.
