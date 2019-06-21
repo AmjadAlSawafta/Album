@@ -50,6 +50,7 @@ public class GalleryActivity extends BaseActivity implements Contract.GalleryPre
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         setContentView(R.layout.album_activity_gallery);
         mView = new GalleryView<>(this, this);
         Bundle argument = getIntent().getExtras();
